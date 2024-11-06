@@ -1,0 +1,26 @@
+div {
+    border: 1px solid black;
+    width: 30%;
+}
+.box {
+    width: 100%;
+    display: flex;
+    /* Eixo Principal se moverá ao longo da linha > da direita para esquerda em Row-reverse  */
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    /*Quebra automática de linha*/ 
+    flex-wrap: wrap;
+    /*Alinha na horizontal*/
+    justify-content:center;
+    /*Alina na vertical*/
+    align-items: stretch;
+}
+
+.box figure img{
+    width: 50%;
+}
+
+.box .roger {
+    border: 1px solid black;
+    width: 170px;
+}
